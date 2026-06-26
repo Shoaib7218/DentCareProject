@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout App') {
             steps {
                 dir('dentcare-app') {
-                    git branch: 'main', url: 'https://github.com/Shoaib7218/DentCareProject.git'
+                    git branch: 'master', url: 'https://github.com/Shoaib7218/DentCareProject.git'
                 }
             }
         }
